@@ -1,0 +1,178 @@
+{
+  "Version": 3,
+  "Bounds": {
+    "Width": 13.16712,
+    "Height": 10.0,
+    "CenterX": 1.0,
+    "CenterY": 0.8
+  },
+  "FileReferences": {
+    "Moc": "62_pi.moc3",
+    "Textures": [
+      "62_pi.4096/texture_00.png"
+    ],
+    "Physics": "62_pi.physics3.json",
+    "PhysicsV2": {
+      "File": "62_pi.physics3.json"
+    },
+    "Motions": {
+      "Tap": [
+        {
+          "Name": "卸载设备",
+          "File": "movation/xiezaishebei.motion3.json",
+          "Sound": "type62xzsb.wav",
+          "Text": "指挥官大人，你是打扑克输掉了我身上的设备了吗？好伤心哦，不要有下次了~",
+          "TextDuration": 6000,
+          "VarFloats": [
+            {
+              "Name": "是否有勋章",
+              "Type": 1,
+              "Code": "equal 0"
+            },
+            {
+              "Name": "是否有勋章",
+              "Type": 2,
+              "Code": "assign 1"
+            }
+          ]
+        },
+        {
+          "Name": "安装设被",
+          "File": "movation/zhuangshebei.motion3.json",
+          "Sound": "type62azxsb1.wav",
+          "Text": "嗯？指挥官问我要什么礼物？嗯......我要蛋糕，和小公主礼服~",
+          "TextDuration": 6000,
+          "VarFloats": [
+            {
+              "Name": "是否有勋章",
+              "Type": 1,
+              "Code": "equal 1"
+            },
+            {
+              "Name": "是否有勋章",
+              "Type": 2,
+              "Code": "assign 0"
+            }
+          ]
+        },
+        {
+          "Name": "jddj1",
+          "File": "movation/jddj1.motion3.json",
+          "Sound": "type62jddj1.wav",
+          "Text": "嗯...夏天想留个短头发，最好可以遮住耳朵的那种；冬天想盘个辫子~要多长...嗯...指挥官同志说了算吧~",
+          "TextDuration": 12000
+        },
+        {
+          "Name": "jddj2",
+          "File": "movation/jddj2.motion3.json",
+          "Sound": "type62jddj2.wav",
+          "Text": "嗯哼......我不知道该不该说，每次见到熊战车兽，我....总想被它们抱抱呢......",
+          "TextDuration": 10000
+        },
+        {
+          "Name": "jddj3",
+          "File": "movation/jddj3.motion3.json",
+          "Sound": "type62jddj3.wav",
+          "Text": "我喜欢吃蛋黄酥，记住了吗~不是宽面条哦~虽然在山西的时候每天都吃来着......",
+          "TextDuration": 8000
+        },
+        {
+          "Name": "jddj4",
+          "File": "movation/jddj4.motion3.json",
+          "Sound": "type62jddj4.wav",
+          "Text": "指挥官大人有见过熊猫战车兽吗？我听说存在的欸！但是没有人真的见到过，一张照片都没有呢......",
+          "TextDuration": 12000
+        }
+      ]
+    }
+  },
+  "Controllers": {
+    "ParamHit": {
+      "Items": [
+        {
+          "Name": "拖勋章",
+          "Id": "Param_tz",
+          "HitArea": "装备",
+          "Axis": 0,
+          "Factor": 0.03,
+          "Release": 2000,
+          "ReleaseType": 1,
+          "MaxMtn": "Tap:卸载设备"
+        }
+      ],
+      "Enabled": true
+    },
+    "ParamLoop": {},
+    "KeyTrigger": {},
+    "ParamTrigger": {},
+    "AreaTrigger": {},
+    "HandTrigger": {},
+    "EyeBlink": {
+      "MinInterval": 500,
+      "MaxInterval": 6000,
+      "Enabled": true
+    },
+    "LipSync": {
+      "Gain": 5.0
+    },
+    "MouseTracking": {
+      "SmoothTime": 0.15,
+      "Enabled": true
+    },
+    "AutoBreath": {
+      "Enabled": true
+    },
+    "ExtraMotion": {
+      "Enabled": true
+    },
+    "Accelerometer": {
+      "Enabled": true
+    },
+    "Microphone": {},
+    "Transform": {},
+    "FaceTracking": {
+      "Enabled": true
+    },
+    "HandTracking": {},
+    "ParamValue": {},
+    "PartOpacity": {},
+    "ArtmeshOpacity": {},
+    "ArtmeshColor": {},
+    "ArtmeshCulling": {
+      "DefaultMode": 0
+    },
+    "IntimacySystem": {}
+  },
+  "HitAreas": [
+    {
+      "Name": "装备",
+      "Id": "ArtMesh52",
+      "Order": 3,
+      "Motion": "Tap:安装设被"
+    },
+    {
+      "Name": "ArtMesh10",
+      "Id": "ArtMesh10",
+      "Order": 3,
+      "Motion": "Tap:jddj1"
+    },
+    {
+      "Name": "ArtMesh41",
+      "Id": "ArtMesh41",
+      "Motion": "Tap:jddj2"
+    },
+    {
+      "Name": "ArtMesh12",
+      "Id": "ArtMesh12",
+      "Order": 3,
+      "Motion": "Tap:jddj3"
+    },
+    {
+      "Name": "ArtMesh16",
+      "Id": "ArtMesh16",
+      "Order": 3,
+      "Motion": "Tap:jddj4"
+    }
+  ],
+  "Options": {}
+}

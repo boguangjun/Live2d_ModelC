@@ -1,0 +1,526 @@
+{
+	"Version": 3,
+	"Parameters": [
+		{
+			"Id": "PARAM_ANGLE_X",
+			"GroupId": "",
+			"Name": "角度 X"
+		},
+		{
+			"Id": "PARAM_ANGLE_Y",
+			"GroupId": "",
+			"Name": "角度 Y"
+		},
+		{
+			"Id": "PARAM_ANGLE_Z",
+			"GroupId": "",
+			"Name": "角度 Z"
+		},
+		{
+			"Id": "PARAM_EYE_L_OPEN",
+			"GroupId": "",
+			"Name": "左目　開閉"
+		},
+		{
+			"Id": "PARAM_EYE_L_SMILE",
+			"GroupId": "",
+			"Name": "左目　笑顔"
+		},
+		{
+			"Id": "PARAM_EYE_R_OPEN",
+			"GroupId": "",
+			"Name": "右目　開閉"
+		},
+		{
+			"Id": "PARAM_EYE_R_SMILE",
+			"GroupId": "",
+			"Name": "右目　笑顔"
+		},
+		{
+			"Id": "PARAM_EYE_BALL_X",
+			"GroupId": "",
+			"Name": "目玉 X"
+		},
+		{
+			"Id": "Param_Angle_Rotation_1_ArtMesh17",
+			"GroupId": "ParamGroup8",
+			"Name": "[0]ﾍｼｲ� 34"
+		},
+		{
+			"Id": "Param_Angle_Rotation_2_ArtMesh17",
+			"GroupId": "ParamGroup8",
+			"Name": "[1]ﾍｼｲ� 34"
+		},
+		{
+			"Id": "Param_Angle_Rotation_3_ArtMesh17",
+			"GroupId": "ParamGroup8",
+			"Name": "[2]ﾍｼｲ� 34"
+		},
+		{
+			"Id": "Param_Angle_Rotation_4_ArtMesh17",
+			"GroupId": "ParamGroup8",
+			"Name": "[3]ﾍｼｲ� 34"
+		},
+		{
+			"Id": "Param_Angle_Rotation_5_ArtMesh17",
+			"GroupId": "ParamGroup8",
+			"Name": "[4]ﾍｼｲ� 34"
+		},
+		{
+			"Id": "Param_Angle_Rotation_6_ArtMesh17",
+			"GroupId": "ParamGroup8",
+			"Name": "[5]ﾍｼｲ� 34"
+		},
+		{
+			"Id": "Param_Angle_Rotation_7_ArtMesh17",
+			"GroupId": "ParamGroup8",
+			"Name": "[6]ﾍｼｲ� 34"
+		},
+		{
+			"Id": "PARAM_EYE_BALL_Y",
+			"GroupId": "",
+			"Name": "目玉 Y"
+		},
+		{
+			"Id": "PARAM_BROW_L_Y",
+			"GroupId": "",
+			"Name": "左眉　上下"
+		},
+		{
+			"Id": "PARAM_BROW_R_Y",
+			"GroupId": "",
+			"Name": "右眉　上下"
+		},
+		{
+			"Id": "PARAM_BROW_L_X",
+			"GroupId": "",
+			"Name": "左眉　左右"
+		},
+		{
+			"Id": "PARAM_BROW_R_X",
+			"GroupId": "",
+			"Name": "右眉　左右"
+		},
+		{
+			"Id": "PARAM_BROW_L_ANGLE",
+			"GroupId": "",
+			"Name": "左眉　角度"
+		},
+		{
+			"Id": "PARAM_BROW_R_ANGLE",
+			"GroupId": "",
+			"Name": "右眉　角度"
+		},
+		{
+			"Id": "PARAM_BROW_L_FORM",
+			"GroupId": "",
+			"Name": "左眉　変形"
+		},
+		{
+			"Id": "PARAM_BROW_R_FORM",
+			"GroupId": "",
+			"Name": "右眉　変形"
+		},
+		{
+			"Id": "PARAM_MOUTH_FORM",
+			"GroupId": "",
+			"Name": "口　変形"
+		},
+		{
+			"Id": "PARAM_MOUTH_OPEN_Y",
+			"GroupId": "",
+			"Name": "口　開閉"
+		},
+		{
+			"Id": "PARAM_CHEEK",
+			"GroupId": "",
+			"Name": "照れ"
+		},
+		{
+			"Id": "PARAM_BODY_ANGLE_X",
+			"GroupId": "",
+			"Name": "体の回転　X"
+		},
+		{
+			"Id": "PARAM_BODY_ANGLE_Y",
+			"GroupId": "",
+			"Name": "体の回転　Y"
+		},
+		{
+			"Id": "PARAM_BODY_ANGLE_Z",
+			"GroupId": "",
+			"Name": "体の回転　Z"
+		},
+		{
+			"Id": "PARAM_BREATH",
+			"GroupId": "",
+			"Name": "呼吸"
+		},
+		{
+			"Id": "PARAM_HAIR_FRONT",
+			"GroupId": "",
+			"Name": "髪揺れ　前"
+		},
+		{
+			"Id": "PARAM_HAIR_SIDE",
+			"GroupId": "",
+			"Name": "髪揺れ　横"
+		},
+		{
+			"Id": "PARAM_HAIR_BACK",
+			"GroupId": "",
+			"Name": "髪揺れ　後"
+		},
+		{
+			"Id": "PARAM_ARM_L",
+			"GroupId": "",
+			"Name": "左腕"
+		},
+		{
+			"Id": "PARAM_ARM_R",
+			"GroupId": "",
+			"Name": "右腕"
+		},
+		{
+			"Id": "sk_2",
+			"GroupId": "",
+			"Name": "参数50"
+		},
+		{
+			"Id": "sk_1",
+			"GroupId": "",
+			"Name": "参数49"
+		},
+		{
+			"Id": "Param_lingjie",
+			"GroupId": "",
+			"Name": "领结晃动"
+		},
+		{
+			"Id": "Param_zbh",
+			"GroupId": "",
+			"Name": "装备晃动"
+		},
+		{
+			"Id": "Param_tz",
+			"GroupId": "",
+			"Name": "拖走"
+		},
+		{
+			"Id": "Param_xiaoshi",
+			"GroupId": "",
+			"Name": "参数68"
+		},
+		{
+			"Id": "Param_Angle_Rotation_1_ArtMesh15",
+			"GroupId": "ParamGroup",
+			"Name": "[0]ﾍｼｲ� 33"
+		},
+		{
+			"Id": "Param_Angle_Rotation_2_ArtMesh15",
+			"GroupId": "ParamGroup",
+			"Name": "[1]ﾍｼｲ� 33"
+		},
+		{
+			"Id": "Param_Angle_Rotation_3_ArtMesh15",
+			"GroupId": "ParamGroup",
+			"Name": "[2]ﾍｼｲ� 33"
+		},
+		{
+			"Id": "Param_Angle_Rotation_4_ArtMesh15",
+			"GroupId": "ParamGroup",
+			"Name": "[3]ﾍｼｲ� 33"
+		},
+		{
+			"Id": "Param_Angle_Rotation_5_ArtMesh15",
+			"GroupId": "ParamGroup",
+			"Name": "[4]ﾍｼｲ� 33"
+		},
+		{
+			"Id": "Param_Angle_Rotation_1_ArtMesh7",
+			"GroupId": "ParamGroup2",
+			"Name": "[0]ﾍｼｲ� 28"
+		},
+		{
+			"Id": "Param_Angle_Rotation_2_ArtMesh7",
+			"GroupId": "ParamGroup2",
+			"Name": "[1]ﾍｼｲ� 28"
+		},
+		{
+			"Id": "Param_Angle_Rotation_3_ArtMesh7",
+			"GroupId": "ParamGroup2",
+			"Name": "[2]ﾍｼｲ� 28"
+		},
+		{
+			"Id": "Param_Angle_Rotation_4_ArtMesh7",
+			"GroupId": "ParamGroup2",
+			"Name": "[3]ﾍｼｲ� 28"
+		},
+		{
+			"Id": "Param_Angle_Rotation_5_ArtMesh7",
+			"GroupId": "ParamGroup2",
+			"Name": "[4]ﾍｼｲ� 28"
+		},
+		{
+			"Id": "Param_Angle_Rotation_1_ArtMesh8",
+			"GroupId": "ParamGroup3",
+			"Name": "[0]ﾍｼｲ� 25"
+		},
+		{
+			"Id": "Param_Angle_Rotation_2_ArtMesh8",
+			"GroupId": "ParamGroup3",
+			"Name": "[1]ﾍｼｲ� 25"
+		},
+		{
+			"Id": "Param_Angle_Rotation_3_ArtMesh8",
+			"GroupId": "ParamGroup3",
+			"Name": "[2]ﾍｼｲ� 25"
+		},
+		{
+			"Id": "Param_Angle_Rotation_4_ArtMesh8",
+			"GroupId": "ParamGroup3",
+			"Name": "[3]ﾍｼｲ� 25"
+		},
+		{
+			"Id": "Param_Angle_Rotation_5_ArtMesh8",
+			"GroupId": "ParamGroup3",
+			"Name": "[4]ﾍｼｲ� 25"
+		},
+		{
+			"Id": "Param_Angle_Rotation_1_ArtMesh9",
+			"GroupId": "ParamGroup4",
+			"Name": "[0]ﾍｼｲ� 27"
+		},
+		{
+			"Id": "Param_Angle_Rotation_2_ArtMesh9",
+			"GroupId": "ParamGroup4",
+			"Name": "[1]ﾍｼｲ� 27"
+		},
+		{
+			"Id": "Param_Angle_Rotation_3_ArtMesh9",
+			"GroupId": "ParamGroup4",
+			"Name": "[2]ﾍｼｲ� 27"
+		},
+		{
+			"Id": "Param_Angle_Rotation_4_ArtMesh9",
+			"GroupId": "ParamGroup4",
+			"Name": "[3]ﾍｼｲ� 27"
+		},
+		{
+			"Id": "Param_Angle_Rotation_5_ArtMesh9",
+			"GroupId": "ParamGroup4",
+			"Name": "[4]ﾍｼｲ� 27"
+		},
+		{
+			"Id": "Param_Angle_Rotation_1_ArtMesh44",
+			"GroupId": "ParamGroup6",
+			"Name": "[0]ﾍｼｲ� 34"
+		},
+		{
+			"Id": "Param_Angle_Rotation_2_ArtMesh44",
+			"GroupId": "ParamGroup6",
+			"Name": "[1]ﾍｼｲ� 34"
+		},
+		{
+			"Id": "Param_Angle_Rotation_3_ArtMesh44",
+			"GroupId": "ParamGroup6",
+			"Name": "[2]ﾍｼｲ� 34"
+		},
+		{
+			"Id": "Param_Angle_Rotation_4_ArtMesh44",
+			"GroupId": "ParamGroup6",
+			"Name": "[3]ﾍｼｲ� 34"
+		},
+		{
+			"Id": "Param_Angle_Rotation_5_ArtMesh44",
+			"GroupId": "ParamGroup6",
+			"Name": "[4]ﾍｼｲ� 34"
+		},
+		{
+			"Id": "Param_Angle_Rotation_6_ArtMesh44",
+			"GroupId": "ParamGroup6",
+			"Name": "[5]ﾍｼｲ� 34"
+		},
+		{
+			"Id": "Param_Angle_Rotation_7_ArtMesh44",
+			"GroupId": "ParamGroup6",
+			"Name": "[6]ﾍｼｲ� 34"
+		}
+	],
+	"ParameterGroups": [
+		{
+			"Id": "ParamGroup8",
+			"GroupId": "",
+			"Name": "ﾍｼｲ� 34"
+		},
+		{
+			"Id": "ParamGroup",
+			"GroupId": "",
+			"Name": "ﾍｼｲ� 33"
+		},
+		{
+			"Id": "ParamGroup2",
+			"GroupId": "",
+			"Name": "ﾍｼｲ� 28"
+		},
+		{
+			"Id": "ParamGroup3",
+			"GroupId": "",
+			"Name": "ﾍｼｲ� 25"
+		},
+		{
+			"Id": "ParamGroup4",
+			"GroupId": "",
+			"Name": "ﾍｼｲ� 27"
+		},
+		{
+			"Id": "ParamGroup5",
+			"GroupId": "",
+			"Name": "ﾍｼｲ� 33"
+		},
+		{
+			"Id": "ParamGroup6",
+			"GroupId": "",
+			"Name": "ﾍｼｲ� 34"
+		},
+		{
+			"Id": "ParamGroup7",
+			"GroupId": "",
+			"Name": "ﾍｼｲ� 34"
+		}
+	],
+	"Parts": [
+		{
+			"Id": "Part12",
+			"Name": "眼睛和装备.psd"
+		},
+		{
+			"Id": "Part10",
+			"Name": "小玉长发.psd"
+		},
+		{
+			"Id": "Part7",
+			"Name": "小玉全身.psd"
+		},
+		{
+			"Id": "PARTS_01_BODY",
+			"Name": "体"
+		},
+		{
+			"Id": "PARTS_01_NECK",
+			"Name": "首"
+		},
+		{
+			"Id": "PARTS_01_HAIR_BACK_001",
+			"Name": "後ろ髪"
+		},
+		{
+			"Id": "PARTS_01_HAIR_SIDE_001",
+			"Name": "横髪"
+		},
+		{
+			"Id": "PARTS_01_HAIR_FRONT_001",
+			"Name": "前髪"
+		},
+		{
+			"Id": "PARTS_01_EAR_001",
+			"Name": "耳"
+		},
+		{
+			"Id": "PARTS_01_NOSE_001",
+			"Name": "鼻"
+		},
+		{
+			"Id": "PARTS_01_MOUTH_001",
+			"Name": "口"
+		},
+		{
+			"Id": "PARTS_01_BROW_001",
+			"Name": "まゆ毛"
+		},
+		{
+			"Id": "PARTS_01_EYE_BALL_001",
+			"Name": "目玉"
+		},
+		{
+			"Id": "PARTS_01_EYE_001",
+			"Name": "目"
+		},
+		{
+			"Id": "PARTS_01_FACE_001",
+			"Name": "顔"
+		},
+		{
+			"Id": "ArtMesh17_Skinning",
+			"Name": "ﾍｼｲ� 34(蒙皮)"
+		},
+		{
+			"Id": "Part11",
+			"Name": "ﾍｼｲ� 34(回转)"
+		},
+		{
+			"Id": "ArtMesh44_Skinning2",
+			"Name": "ﾍｼｲ� 34(蒙皮)"
+		},
+		{
+			"Id": "Part9",
+			"Name": "ﾍｼｲ� 34(回转)"
+		},
+		{
+			"Id": "ArtMesh44_Skinning",
+			"Name": "ﾍｼｲ� 34(蒙皮)"
+		},
+		{
+			"Id": "Part8",
+			"Name": "ﾍｼｲ� 34(回转)"
+		},
+		{
+			"Id": "ArtMesh7_Skinning",
+			"Name": "ﾍｼｲ� 28(蒙皮)"
+		},
+		{
+			"Id": "Part2",
+			"Name": "ﾍｼｲ� 28(回转)"
+		},
+		{
+			"Id": "ArtMesh9_Skinning",
+			"Name": "ﾍｼｲ� 27(蒙皮)"
+		},
+		{
+			"Id": "Part4",
+			"Name": "ﾍｼｲ� 27(回转)"
+		},
+		{
+			"Id": "ArtMesh15_Skinning2",
+			"Name": "ﾍｼｲ� 33(蒙皮)"
+		},
+		{
+			"Id": "Part6",
+			"Name": "ﾍｼｲ� 33(回转)"
+		},
+		{
+			"Id": "ArtMesh15_Skinning",
+			"Name": "ﾍｼｲ� 33(蒙皮)"
+		},
+		{
+			"Id": "Part",
+			"Name": "ﾍｼｲ� 33(回转)"
+		},
+		{
+			"Id": "ArtMesh19_Skinning",
+			"Name": "ﾍｼｲ� 34(蒙皮)"
+		},
+		{
+			"Id": "Part5",
+			"Name": "ﾍｼｲ� 34(回转)"
+		},
+		{
+			"Id": "ArtMesh8_Skinning",
+			"Name": "ﾍｼｲ� 25(蒙皮)"
+		},
+		{
+			"Id": "Part3",
+			"Name": "ﾍｼｲ� 25(回转)"
+		}
+	]
+}
