@@ -1,0 +1,148 @@
+{
+  "Version": 3,
+  "Bounds": {
+    "Width": 7.467011,
+    "Height": 15.0,
+    "CenterX": 0.0,
+    "CenterY": 0.0
+  },
+  "FileReferences": {
+    "Moc": "fogroad.moc3",
+    "Textures": [
+      "fogroad.4096/texture_00.png",
+      "fogroad.4096/texture_01.png"
+    ],
+    "Physics": "fogroad.physics3.json",
+    "Motions": {
+      "Tick": [
+        {
+          "Name": "戴上眼镜",
+          "Text": "好吧，吾换一个眼镜",
+          "Expression": "glasses"
+        },
+        {
+          "Name": "换发型",
+          "Text": "好吧，吾换一个发型",
+          "Expression": "2"
+        },
+        {
+          "Name": "蛤？",
+          "Text": "蛤？",
+          "Expression": "4"
+        },
+        {
+          "Name": "过分",
+          "Text": "好暖和呀~辛苦了。",
+          "Expression": "3"
+        },
+        {
+          "Name": "呼呼",
+          "Text": "汝辈做好自己分内的事了吗？",
+          "Expression": "back"
+        },
+        {
+          "Name": "很单纯",
+          "File": "motion/Scene1.motion3.json",
+          "Text": "世界很单纯，复杂的是人"
+        }
+      ]
+    },
+    "Expressions": [
+      {
+        "Name": "glasses",
+        "File": "expressions/glasses.exp3.json"
+      },
+      {
+        "Name": "2",
+        "File": "expressions/2.exp3.json"
+      },
+      {
+        "Name": "4",
+        "File": "expressions/4.exp3.json"
+      },
+      {
+        "Name": "3",
+        "File": "expressions/3.exp3.json"
+      },
+      {
+        "Name": "back",
+        "File": "expressions/gui.exp3.json"
+      }
+    ]
+  },
+  "Controllers": {
+    "ParamHit": {},
+    "ParamLoop": {},
+    "KeyTrigger": {},
+    "EyeBlink": {
+      "MinInterval": 500,
+      "MaxInterval": 6000,
+      "Enabled": true
+    },
+    "LipSync": {
+      "Gain": 5.0
+    },
+    "MouseTracking": {
+      "SmoothTime": 0.15,
+      "Enabled": true
+    },
+    "AutoBreath": {
+      "Enabled": true
+    },
+    "ExtraMotion": {
+      "Enabled": true
+    },
+    "Accelerometer": {
+      "Enabled": true
+    },
+    "Microphone": {},
+    "Transform": {},
+    "FaceTracking": {
+      "Enabled": true
+    },
+    "ParamValue": {},
+    "PartOpacity": {},
+    "ArtmeshOpacity": {},
+    "ArtmeshColor": {},
+    "ArtmeshCulling": {
+      "DefaultMode": 0
+    },
+    "IntimacySystem": {}
+  },
+  "HitAreas": [
+    {},
+    {
+      "Name": "glasses1",
+      "Id": "ArtMesh1",
+      "Motion": "Tick:戴上眼镜"
+    },
+    {
+      "Name": "hair",
+      "Id": "ArtMesh2",
+      "Motion": "Tick:换发型"
+    },
+    {
+      "Name": "ha",
+      "Id": "ArtMesh45",
+      "Motion": "Tick:蛤？"
+    },
+    {
+      "Name": "dame",
+      "Id": "ArtMesh67",
+      "Motion": "Tick:过分"
+    },
+    {
+      "Name": "guiling",
+      "Id": "ArtMesh36",
+      "Order": 1,
+      "Motion": "Tick:呼呼"
+    },
+    {
+      "Name": "hands",
+      "Id": "ArtMesh",
+      "Order": 2,
+      "Motion": "Tick:很单纯"
+    }
+  ],
+  "Options": {}
+}

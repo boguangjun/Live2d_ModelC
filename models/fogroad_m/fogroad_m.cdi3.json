@@ -1,0 +1,828 @@
+{
+	"Version": 3,
+	"Parameters": [
+		{
+			"Id": "ParamAngleX",
+			"GroupId": "",
+			"Name": "角度 X"
+		},
+		{
+			"Id": "ParamAngleY",
+			"GroupId": "",
+			"Name": "角度 Y"
+		},
+		{
+			"Id": "ParamAngleZ",
+			"GroupId": "",
+			"Name": "角度 Z"
+		},
+		{
+			"Id": "ParamFaceForm",
+			"GroupId": "",
+			"Name": "顔の拡縮"
+		},
+		{
+			"Id": "ParamEyeLOpen",
+			"GroupId": "",
+			"Name": "左目　開閉"
+		},
+		{
+			"Id": "ParamEyeLSmile",
+			"GroupId": "",
+			"Name": "左目　笑顔"
+		},
+		{
+			"Id": "ParamEyeROpen",
+			"GroupId": "",
+			"Name": "右目　開閉"
+		},
+		{
+			"Id": "ParamEyeRSmile",
+			"GroupId": "",
+			"Name": "右目　笑顔"
+		},
+		{
+			"Id": "ParamEyeBallX",
+			"GroupId": "",
+			"Name": "目玉 X"
+		},
+		{
+			"Id": "ParamEyeBallY",
+			"GroupId": "",
+			"Name": "目玉 Y"
+		},
+		{
+			"Id": "ParamBrowLY",
+			"GroupId": "",
+			"Name": "左眉　上下"
+		},
+		{
+			"Id": "ParamBrowRY",
+			"GroupId": "",
+			"Name": "右眉　上下"
+		},
+		{
+			"Id": "ParamBrowLX",
+			"GroupId": "",
+			"Name": "左眉　左右"
+		},
+		{
+			"Id": "ParamBrowRX",
+			"GroupId": "",
+			"Name": "右眉　左右"
+		},
+		{
+			"Id": "ParamBrowLAngle",
+			"GroupId": "",
+			"Name": "左眉　角度"
+		},
+		{
+			"Id": "ParamBrowRAngle",
+			"GroupId": "",
+			"Name": "右眉　角度"
+		},
+		{
+			"Id": "ParamBrowLForm",
+			"GroupId": "",
+			"Name": "左眉　変形"
+		},
+		{
+			"Id": "ParamBrowRForm",
+			"GroupId": "",
+			"Name": "右眉　変形"
+		},
+		{
+			"Id": "ParamMouthForm",
+			"GroupId": "",
+			"Name": "口　変形"
+		},
+		{
+			"Id": "ParamMouthOpenY",
+			"GroupId": "",
+			"Name": "口　開閉"
+		},
+		{
+			"Id": "ParamEyeForm",
+			"GroupId": "",
+			"Name": "眼　変形"
+		},
+		{
+			"Id": "ParamTear",
+			"GroupId": "",
+			"Name": "涙"
+		},
+		{
+			"Id": "ParamEyeBallForm",
+			"GroupId": "",
+			"Name": "目玉　収縮"
+		},
+		{
+			"Id": "ParamTere",
+			"GroupId": "",
+			"Name": "照れ"
+		},
+		{
+			"Id": "ParamBodyAngleX",
+			"GroupId": "",
+			"Name": "体の回転　X"
+		},
+		{
+			"Id": "ParamBodyAngleY",
+			"GroupId": "",
+			"Name": "体の回転　Y"
+		},
+		{
+			"Id": "ParamBodyAngleZ",
+			"GroupId": "",
+			"Name": "体の回転　Z"
+		},
+		{
+			"Id": "ParamBreath",
+			"GroupId": "",
+			"Name": "呼吸"
+		},
+		{
+			"Id": "ParamBustY",
+			"GroupId": "",
+			"Name": "胸　揺れ"
+		},
+		{
+			"Id": "Param",
+			"GroupId": "",
+			"Name": "参数59"
+		},
+		{
+			"Id": "Param2",
+			"GroupId": "",
+			"Name": "左手手1"
+		},
+		{
+			"Id": "Param3",
+			"GroupId": "",
+			"Name": "左手"
+		},
+		{
+			"Id": "Param5",
+			"GroupId": "",
+			"Name": "faxing"
+		},
+		{
+			"Id": "Param4",
+			"GroupId": "",
+			"Name": "glasses"
+		},
+		{
+			"Id": "xue",
+			"GroupId": "",
+			"Name": "靴"
+		},
+		{
+			"Id": "Param6",
+			"GroupId": "",
+			"Name": "腿开合"
+		},
+		{
+			"Id": "Param7",
+			"GroupId": "",
+			"Name": "计划板"
+		},
+		{
+			"Id": "Param8",
+			"GroupId": "",
+			"Name": "ZUANTOU"
+		},
+		{
+			"Id": "Param_Angle_Rotation_1_ArtMesh39",
+			"GroupId": "ParamGroup",
+			"Name": "[0]ｺ�ｷ｢"
+		},
+		{
+			"Id": "Param_Angle_Rotation_2_ArtMesh39",
+			"GroupId": "ParamGroup",
+			"Name": "[1]ｺ�ｷ｢"
+		},
+		{
+			"Id": "Param_Angle_Rotation_3_ArtMesh39",
+			"GroupId": "ParamGroup",
+			"Name": "[2]ｺ�ｷ｢"
+		},
+		{
+			"Id": "Param_Angle_Rotation_4_ArtMesh39",
+			"GroupId": "ParamGroup",
+			"Name": "[3]ｺ�ｷ｢"
+		},
+		{
+			"Id": "Param_Angle_Rotation_5_ArtMesh39",
+			"GroupId": "ParamGroup",
+			"Name": "[4]ｺ�ｷ｢"
+		},
+		{
+			"Id": "Param_Angle_Rotation_1_ArtMesh0",
+			"GroupId": "ParamGroup2",
+			"Name": "[0]ﾗ�ﾁ�ｺ｣"
+		},
+		{
+			"Id": "Param_Angle_Rotation_2_ArtMesh0",
+			"GroupId": "ParamGroup2",
+			"Name": "[1]ﾗ�ﾁ�ｺ｣"
+		},
+		{
+			"Id": "Param_Angle_Rotation_3_ArtMesh0",
+			"GroupId": "ParamGroup2",
+			"Name": "[2]ﾗ�ﾁ�ｺ｣"
+		},
+		{
+			"Id": "Param_Angle_Rotation_4_ArtMesh0",
+			"GroupId": "ParamGroup2",
+			"Name": "[3]ﾗ�ﾁ�ｺ｣"
+		},
+		{
+			"Id": "Param_Angle_Rotation_5_ArtMesh0",
+			"GroupId": "ParamGroup2",
+			"Name": "[4]ﾗ�ﾁ�ｺ｣"
+		},
+		{
+			"Id": "Param_Angle_Rotation_6_ArtMesh0",
+			"GroupId": "ParamGroup2",
+			"Name": "[5]ﾗ�ﾁ�ｺ｣"
+		},
+		{
+			"Id": "Param_Angle_Rotation_7_ArtMesh0",
+			"GroupId": "ParamGroup2",
+			"Name": "[6]ﾗ�ﾁ�ｺ｣"
+		},
+		{
+			"Id": "Param_Angle_Rotation_1_ArtMesh",
+			"GroupId": "ParamGroup3",
+			"Name": "[0]ﾓﾒﾁ�ｺ｣"
+		},
+		{
+			"Id": "Param_Angle_Rotation_2_ArtMesh",
+			"GroupId": "ParamGroup3",
+			"Name": "[1]ﾓﾒﾁ�ｺ｣"
+		},
+		{
+			"Id": "Param_Angle_Rotation_3_ArtMesh",
+			"GroupId": "ParamGroup3",
+			"Name": "[2]ﾓﾒﾁ�ｺ｣"
+		},
+		{
+			"Id": "Param_Angle_Rotation_4_ArtMesh",
+			"GroupId": "ParamGroup3",
+			"Name": "[3]ﾓﾒﾁ�ｺ｣"
+		},
+		{
+			"Id": "Param_Angle_Rotation_5_ArtMesh",
+			"GroupId": "ParamGroup3",
+			"Name": "[4]ﾓﾒﾁ�ｺ｣"
+		},
+		{
+			"Id": "Param_Angle_Rotation_6_ArtMesh",
+			"GroupId": "ParamGroup3",
+			"Name": "[5]ﾓﾒﾁ�ｺ｣"
+		},
+		{
+			"Id": "Param_Angle_Rotation_7_ArtMesh",
+			"GroupId": "ParamGroup3",
+			"Name": "[6]ﾓﾒﾁ�ｺ｣"
+		},
+		{
+			"Id": "Param_Angle_Rotation_1_ArtMesh32",
+			"GroupId": "ParamGroup4",
+			"Name": "[0]ｺ�ｵ�ｽ�"
+		},
+		{
+			"Id": "Param_Angle_Rotation_2_ArtMesh32",
+			"GroupId": "ParamGroup4",
+			"Name": "[1]ｺ�ｵ�ｽ�"
+		},
+		{
+			"Id": "Param_Angle_Rotation_3_ArtMesh32",
+			"GroupId": "ParamGroup4",
+			"Name": "[2]ｺ�ｵ�ｽ�"
+		},
+		{
+			"Id": "Param_Angle_Rotation_4_ArtMesh32",
+			"GroupId": "ParamGroup4",
+			"Name": "[3]ｺ�ｵ�ｽ�"
+		},
+		{
+			"Id": "Param_Angle_Rotation_5_ArtMesh32",
+			"GroupId": "ParamGroup4",
+			"Name": "[4]ｺ�ｵ�ｽ�"
+		},
+		{
+			"Id": "Param_Angle_Rotation_1_ArtMesh2",
+			"GroupId": "ParamGroup5",
+			"Name": "[0]ﾈｹﾗﾓ"
+		},
+		{
+			"Id": "Param_Angle_Rotation_2_ArtMesh2",
+			"GroupId": "ParamGroup5",
+			"Name": "[1]ﾈｹﾗﾓ"
+		},
+		{
+			"Id": "Param_Angle_Rotation_3_ArtMesh2",
+			"GroupId": "ParamGroup5",
+			"Name": "[2]ﾈｹﾗﾓ"
+		},
+		{
+			"Id": "Param_Angle_Rotation_4_ArtMesh2",
+			"GroupId": "ParamGroup5",
+			"Name": "[3]ﾈｹﾗﾓ"
+		},
+		{
+			"Id": "Param_Angle_Rotation_5_ArtMesh2",
+			"GroupId": "ParamGroup5",
+			"Name": "[4]ﾈｹﾗﾓ"
+		},
+		{
+			"Id": "Param_Angle_Rotation_1_ArtMesh35",
+			"GroupId": "ParamGroup7",
+			"Name": "[0]ﾓﾒｱ�"
+		},
+		{
+			"Id": "Param_Angle_Rotation_2_ArtMesh35",
+			"GroupId": "ParamGroup7",
+			"Name": "[1]ﾓﾒｱ�"
+		},
+		{
+			"Id": "Param_Angle_Rotation_3_ArtMesh35",
+			"GroupId": "ParamGroup7",
+			"Name": "[2]ﾓﾒｱ�"
+		},
+		{
+			"Id": "Param_Angle_Rotation_4_ArtMesh35",
+			"GroupId": "ParamGroup7",
+			"Name": "[3]ﾓﾒｱ�"
+		},
+		{
+			"Id": "Param_Angle_Rotation_5_ArtMesh35",
+			"GroupId": "ParamGroup7",
+			"Name": "[4]ﾓﾒｱ�"
+		},
+		{
+			"Id": "Param_Angle_Rotation_1_ArtMesh40",
+			"GroupId": "ParamGroup8",
+			"Name": "[0]ﾗ�ｱ�"
+		},
+		{
+			"Id": "Param_Angle_Rotation_2_ArtMesh40",
+			"GroupId": "ParamGroup8",
+			"Name": "[1]ﾗ�ｱ�"
+		},
+		{
+			"Id": "Param_Angle_Rotation_3_ArtMesh40",
+			"GroupId": "ParamGroup8",
+			"Name": "[2]ﾗ�ｱ�"
+		},
+		{
+			"Id": "Param_Angle_Rotation_4_ArtMesh40",
+			"GroupId": "ParamGroup8",
+			"Name": "[3]ﾗ�ｱ�"
+		},
+		{
+			"Id": "Param_Angle_Rotation_5_ArtMesh40",
+			"GroupId": "ParamGroup8",
+			"Name": "[4]ﾗ�ｱ�"
+		},
+		{
+			"Id": "Param_Angle_Rotation_1_ArtMesh75",
+			"GroupId": "ParamGroup10",
+			"Name": "[0]ｴ�ﾒﾂﾗ�"
+		},
+		{
+			"Id": "Param_Angle_Rotation_2_ArtMesh75",
+			"GroupId": "ParamGroup10",
+			"Name": "[1]ｴ�ﾒﾂﾗ�"
+		},
+		{
+			"Id": "Param_Angle_Rotation_3_ArtMesh75",
+			"GroupId": "ParamGroup10",
+			"Name": "[2]ｴ�ﾒﾂﾗ�"
+		},
+		{
+			"Id": "Param_Angle_Rotation_4_ArtMesh75",
+			"GroupId": "ParamGroup10",
+			"Name": "[3]ｴ�ﾒﾂﾗ�"
+		},
+		{
+			"Id": "Param_Angle_Rotation_5_ArtMesh75",
+			"GroupId": "ParamGroup10",
+			"Name": "[4]ｴ�ﾒﾂﾗ�"
+		},
+		{
+			"Id": "Param_Angle_Rotation_1_ArtMesh73",
+			"GroupId": "ParamGroup11",
+			"Name": "[0]ｴ�ﾒﾂﾓﾒ"
+		},
+		{
+			"Id": "Param_Angle_Rotation_2_ArtMesh73",
+			"GroupId": "ParamGroup11",
+			"Name": "[1]ｴ�ﾒﾂﾓﾒ"
+		},
+		{
+			"Id": "Param_Angle_Rotation_3_ArtMesh73",
+			"GroupId": "ParamGroup11",
+			"Name": "[2]ｴ�ﾒﾂﾓﾒ"
+		},
+		{
+			"Id": "Param_Angle_Rotation_4_ArtMesh73",
+			"GroupId": "ParamGroup11",
+			"Name": "[3]ｴ�ﾒﾂﾓﾒ"
+		},
+		{
+			"Id": "Param_Angle_Rotation_5_ArtMesh73",
+			"GroupId": "ParamGroup11",
+			"Name": "[4]ｴ�ﾒﾂﾓﾒ"
+		},
+		{
+			"Id": "Param_Angle_Rotation_1_ArtMesh36",
+			"GroupId": "ParamGroup13",
+			"Name": "[0]ﾓﾒﾂ�ﾎｲ"
+		},
+		{
+			"Id": "Param_Angle_Rotation_2_ArtMesh36",
+			"GroupId": "ParamGroup13",
+			"Name": "[1]ﾓﾒﾂ�ﾎｲ"
+		},
+		{
+			"Id": "Param_Angle_Rotation_3_ArtMesh36",
+			"GroupId": "ParamGroup13",
+			"Name": "[2]ﾓﾒﾂ�ﾎｲ"
+		},
+		{
+			"Id": "Param_Angle_Rotation_4_ArtMesh36",
+			"GroupId": "ParamGroup13",
+			"Name": "[3]ﾓﾒﾂ�ﾎｲ"
+		},
+		{
+			"Id": "Param_Angle_Rotation_5_ArtMesh36",
+			"GroupId": "ParamGroup13",
+			"Name": "[4]ﾓﾒﾂ�ﾎｲ"
+		},
+		{
+			"Id": "Param_Angle_Rotation_6_ArtMesh35",
+			"GroupId": "ParamGroup13",
+			"Name": "[5]ﾓﾒﾂ�ﾎｲ"
+		},
+		{
+			"Id": "Param_Angle_Rotation_7_ArtMesh35",
+			"GroupId": "ParamGroup13",
+			"Name": "[6]ﾓﾒﾂ�ﾎｲ"
+		},
+		{
+			"Id": "Param_Angle_Rotation_1_ArtMesh1",
+			"GroupId": "ParamGroup14",
+			"Name": "[0]ﾓﾒﾂ�ﾎｲ"
+		},
+		{
+			"Id": "Param_Angle_Rotation_2_ArtMesh1",
+			"GroupId": "ParamGroup14",
+			"Name": "[1]ﾓﾒﾂ�ﾎｲ"
+		},
+		{
+			"Id": "Param_Angle_Rotation_3_ArtMesh1",
+			"GroupId": "ParamGroup14",
+			"Name": "[2]ﾓﾒﾂ�ﾎｲ"
+		},
+		{
+			"Id": "Param_Angle_Rotation_4_ArtMesh1",
+			"GroupId": "ParamGroup14",
+			"Name": "[3]ﾓﾒﾂ�ﾎｲ"
+		},
+		{
+			"Id": "Param_Angle_Rotation_5_ArtMesh1",
+			"GroupId": "ParamGroup14",
+			"Name": "[4]ﾓﾒﾂ�ﾎｲ"
+		},
+		{
+			"Id": "Param_Angle_Rotation_6_ArtMesh1",
+			"GroupId": "ParamGroup14",
+			"Name": "[5]ﾓﾒﾂ�ﾎｲ"
+		},
+		{
+			"Id": "Param_Angle_Rotation_7_ArtMesh1",
+			"GroupId": "ParamGroup14",
+			"Name": "[6]ﾓﾒﾂ�ﾎｲ"
+		}
+	],
+	"ParameterGroups": [
+		{
+			"Id": "ParamGroup",
+			"GroupId": "",
+			"Name": "ｺ�ｷ｢"
+		},
+		{
+			"Id": "ParamGroup2",
+			"GroupId": "",
+			"Name": "ﾗ�ﾁ�ｺ｣"
+		},
+		{
+			"Id": "ParamGroup3",
+			"GroupId": "",
+			"Name": "ﾓﾒﾁ�ｺ｣"
+		},
+		{
+			"Id": "ParamGroup4",
+			"GroupId": "",
+			"Name": "ｺ�ｵ�ｽ�"
+		},
+		{
+			"Id": "ParamGroup5",
+			"GroupId": "",
+			"Name": "ﾈｹﾗﾓ"
+		},
+		{
+			"Id": "ParamGroup6",
+			"GroupId": "",
+			"Name": "ﾍｼｲ�1"
+		},
+		{
+			"Id": "ParamGroup7",
+			"GroupId": "",
+			"Name": "ﾓﾒｱ�"
+		},
+		{
+			"Id": "ParamGroup8",
+			"GroupId": "",
+			"Name": "ﾗ�ｱ�"
+		},
+		{
+			"Id": "ParamGroup9",
+			"GroupId": "",
+			"Name": "ｺ�ｵ�ｽ�"
+		},
+		{
+			"Id": "ParamGroup10",
+			"GroupId": "",
+			"Name": "ｴ�ﾒﾂﾗ�"
+		},
+		{
+			"Id": "ParamGroup11",
+			"GroupId": "",
+			"Name": "ｴ�ﾒﾂﾓﾒ"
+		},
+		{
+			"Id": "ParamGroup12",
+			"GroupId": "",
+			"Name": "ﾍｼｲ�1"
+		},
+		{
+			"Id": "ParamGroup13",
+			"GroupId": "",
+			"Name": "ﾓﾒﾂ�ﾎｲ"
+		},
+		{
+			"Id": "ParamGroup14",
+			"GroupId": "",
+			"Name": "ﾓﾒﾂ�ﾎｲ"
+		}
+	],
+	"Parts": [
+		{
+			"Id": "Part28",
+			"Name": "Mideletdejb１.psd"
+		},
+		{
+			"Id": "Part27",
+			"Name": "arm1.psd"
+		},
+		{
+			"Id": "Part26",
+			"Name": "Mideletde1mm.psd"
+		},
+		{
+			"Id": "Part25",
+			"Name": "Mideletde.psd"
+		},
+		{
+			"Id": "Part24",
+			"Name": "Mideletexue.psd"
+		},
+		{
+			"Id": "Part21",
+			"Name": "马尾.psd"
+		},
+		{
+			"Id": "Part13",
+			"Name": "Midelete11.psd"
+		},
+		{
+			"Id": "Part12",
+			"Name": "Midelete.psd"
+		},
+		{
+			"Id": "Part9",
+			"Name": "眼睛稿手.psd"
+		},
+		{
+			"Id": "Part8",
+			"Name": "斗篷手臂等.psd"
+		},
+		{
+			"Id": "Part7",
+			"Name": "斗篷手臂等.psd"
+		},
+		{
+			"Id": "Part5",
+			"Name": "裙子改.psd"
+		},
+		{
+			"Id": "Part01Core",
+			"Name": "コアパーツ"
+		},
+		{
+			"Id": "Part01Hoho001",
+			"Name": "頬"
+		},
+		{
+			"Id": "Part01Brow001",
+			"Name": "まゆ毛"
+		},
+		{
+			"Id": "Part01Tear",
+			"Name": "涙"
+		},
+		{
+			"Id": "Part01EyeBall001",
+			"Name": "目玉"
+		},
+		{
+			"Id": "Part01Eye001",
+			"Name": "目"
+		},
+		{
+			"Id": "Part01Nose001",
+			"Name": "鼻"
+		},
+		{
+			"Id": "Part01Mouth001",
+			"Name": "口"
+		},
+		{
+			"Id": "Part01Face001",
+			"Name": "顔"
+		},
+		{
+			"Id": "Part01Ear001",
+			"Name": "耳"
+		},
+		{
+			"Id": "Part01Neck001",
+			"Name": "首"
+		},
+		{
+			"Id": "Part01HairFront001",
+			"Name": "前髪"
+		},
+		{
+			"Id": "Part01HairSide001",
+			"Name": "横髪"
+		},
+		{
+			"Id": "Part01HairBack001",
+			"Name": "後ろ髪"
+		},
+		{
+			"Id": "Part01ArmRB001",
+			"Name": "左腕 B"
+		},
+		{
+			"Id": "Part01ArmLB001",
+			"Name": "右腕 B"
+		},
+		{
+			"Id": "Part01ArmRA001",
+			"Name": "右腕 A"
+		},
+		{
+			"Id": "Part01ArmLA001",
+			"Name": "左腕 A"
+		},
+		{
+			"Id": "Part01Body001",
+			"Name": "制服"
+		},
+		{
+			"Id": "ArtMesh35_Skinning2",
+			"Name": "ﾓﾒﾂ�ﾎｲ(蒙皮)"
+		},
+		{
+			"Id": "Part22",
+			"Name": "ﾓﾒﾂ�ﾎｲ(回转)"
+		},
+		{
+			"Id": "ArtMesh0_Skinning2",
+			"Name": "ﾓﾒﾂ�ﾎｲ(蒙皮)"
+		},
+		{
+			"Id": "Part23",
+			"Name": "ﾓﾒﾂ�ﾎｲ(回转)"
+		},
+		{
+			"Id": "ArtMesh_Skinning3",
+			"Name": "ﾍｼｲ�1(蒙皮)"
+		},
+		{
+			"Id": "Part20",
+			"Name": "ﾍｼｲ�1(回转)"
+		},
+		{
+			"Id": "ArtMesh_Skinning2",
+			"Name": "ﾍｼｲ�1(蒙皮)"
+		},
+		{
+			"Id": "Part14",
+			"Name": "ﾍｼｲ�1(回转)"
+		},
+		{
+			"Id": "Part10",
+			"Name": "ﾍｼｲ聆�1"
+		},
+		{
+			"Id": "ArtMesh2_Skinning",
+			"Name": "ﾈｹﾗﾓ(蒙皮)"
+		},
+		{
+			"Id": "Part6",
+			"Name": "ﾈｹﾗﾓ(回转)"
+		},
+		{
+			"Id": "ArtMesh39_Skinning",
+			"Name": "ｺ�ｷ｢(蒙皮)"
+		},
+		{
+			"Id": "Part",
+			"Name": "ｺ�ｷ｢(回转)"
+		},
+		{
+			"Id": "ArtMesh32_Skinning",
+			"Name": "ｺ�ｵ�ｽ�(蒙皮)"
+		},
+		{
+			"Id": "Part4",
+			"Name": "ｺ�ｵ�ｽ�(回转)"
+		},
+		{
+			"Id": "ArtMesh_Skinning",
+			"Name": "ﾓﾒﾁ�ｺ｣(蒙皮)"
+		},
+		{
+			"Id": "Part3",
+			"Name": "ﾓﾒﾁ�ｺ｣(回转)"
+		},
+		{
+			"Id": "ArtMesh0_Skinning",
+			"Name": "ﾗ�ﾁ�ｺ｣(蒙皮)"
+		},
+		{
+			"Id": "Part2",
+			"Name": "ﾗ�ﾁ�ｺ｣(回转)"
+		},
+		{
+			"Id": "Part11",
+			"Name": "ｺ�ｵ�ｽ�"
+		},
+		{
+			"Id": "ArtMesh73_Skinning",
+			"Name": "ｴ�ﾒﾂﾓﾒ(蒙皮)"
+		},
+		{
+			"Id": "Part19",
+			"Name": "ｴ�ﾒﾂﾓﾒ(回转)"
+		},
+		{
+			"Id": "ArtMesh75_Skinning",
+			"Name": "ｴ�ﾒﾂﾗ�(蒙皮)"
+		},
+		{
+			"Id": "Part18",
+			"Name": "ｴ�ﾒﾂﾗ�(回转)"
+		},
+		{
+			"Id": "ArtMesh32_Skinning2",
+			"Name": "ｺ�ｵ�ｽ�(蒙皮)"
+		},
+		{
+			"Id": "Part17",
+			"Name": "ｺ�ｵ�ｽ�(回转)"
+		},
+		{
+			"Id": "ArtMesh35_Skinning",
+			"Name": "ﾓﾒｱ�(蒙皮)"
+		},
+		{
+			"Id": "Part15",
+			"Name": "ﾓﾒｱ�(回转)"
+		},
+		{
+			"Id": "ArtMesh39_Skinning2",
+			"Name": "ﾗ�ｱ�(蒙皮)"
+		},
+		{
+			"Id": "Part16",
+			"Name": "ﾗ�ｱ�(回转)"
+		}
+	]
+}

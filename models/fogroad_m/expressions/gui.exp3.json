@@ -1,0 +1,30 @@
+{
+	"Type": "Live2D Expression",
+	"Parameters": [
+		{
+			"Id": "Param4",
+			"Value": 0,
+			"Blend": "Add"
+		},
+		{
+			"Id": "ParamTere",
+			"Value": 0,
+			"Blend": "Add"
+		},
+		{
+			"Id": "Param5",
+			"Value": 0,
+			"Blend": "Add"
+		},
+		{
+			"Id": "ParamEyeBallForm",
+			"Value": 0,
+			"Blend": "Add"
+		},
+		{
+			"Id": "xue",
+			"Value": 0,
+			"Blend": "Add"
+		}
+	]
+}

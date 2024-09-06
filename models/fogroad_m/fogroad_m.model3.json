@@ -1,0 +1,408 @@
+{
+  "Version": 3,
+  "Bounds": {
+    "Width": 9.300377,
+    "Height": 15.0,
+    "CenterX": 0.0,
+    "CenterY": 0.0
+  },
+  "FileReferences": {
+    "Moc": "fogroad_m.moc3",
+    "Textures": [
+      "fogroad_m.4096/texture_00.png"
+    ],
+    "Physics": "fogroad_m.physics3.json",
+    "Motions": {
+      "tick1": [
+        {
+          "Name": "眼镜",
+          "File": "motion/Scene4.motion3.json",
+          "Sound": "sound/19.mp3",
+          "Text": "眼镜？好~ 呐~",
+          "Command": "motions enable tick1:汝辈想要吾换点什么吗"
+        },
+        {
+          "Name": "发型",
+          "File": "motion/Scene2.motion3.json",
+          "Sound": "sound/20.mp3",
+          "Text": "发型？好~ 呐~"
+        },
+        {
+          "Name": "腿",
+          "File": "motion/Scene3.motion3.json",
+          "Sound": "sound/21.mp3",
+          "Text": "丝袜吗?唔.......呐~"
+        },
+        {
+          "Name": "回归",
+          "File": "motion/Scene5.motion3.json",
+          "Sound": "sound/22.2.mp3",
+          "Text": "刚才发生了什么事？吾都记不清了......",
+          "Expression": "归位"
+        },
+        {
+          "Name": "晃",
+          "File": "motion/Scene1.motion3.json",
+          "Sound": "sound/23.mp3",
+          "Text": "唔......"
+        },
+        {
+          "Name": "td",
+          "File": "motion/Scene6.motion3.json",
+          "Text": "不要......啊......不行...太激烈了，啊.."
+        },
+        {
+          "Name": "嘿嘿",
+          "Sound": "sound/25.mp3",
+          "Text": "嘻嘻嘻",
+          "Expression": "3"
+        },
+        {
+          "Name": "蛤？",
+          "Sound": "sound/26.mp3",
+          "Text": "蛤？",
+          "Expression": "眼"
+        }
+      ],
+      "Start": [
+        {
+          "Name": "测试",
+          "Text": "这里是留声机频道，可以选择你想要听的语音喵~",
+          "Choices": [
+            {
+              "Text": "初次见面...",
+              "NextMtn": "Start:1"
+            },
+            {
+              "Text": "黎明...",
+              "NextMtn": "Start:2"
+            },
+            {
+              "Text": "有一个...",
+              "NextMtn": "Start:3"
+            },
+            {
+              "Text": "冥想...",
+              "NextMtn": "Start:5"
+            },
+            {
+              "Text": "进行...",
+              "NextMtn": "Start:6"
+            },
+            {
+              "Text": "物品...",
+              "NextMtn": "Start:7"
+            },
+            {
+              "Text": "新的计划...",
+              "NextMtn": "Start:8"
+            },
+            {
+              "Text": "有物品需要...",
+              "NextMtn": "Start:9"
+            },
+            {
+              "Text": "账目结算...",
+              "NextMtn": "Start:10"
+            },
+            {
+              "Text": "成就...",
+              "NextMtn": "Start:11"
+            },
+            {
+              "Text": "新的任务...",
+              "NextMtn": "Start:12"
+            },
+            {
+              "Text": "专注开始...",
+              "NextMtn": "Start:13"
+            },
+            {
+              "Text": "番茄结束...",
+              "NextMtn": "Start:14"
+            },
+            {
+              "Text": "给自己...",
+              "NextMtn": "Start:15"
+            },
+            {
+              "Text": "计划完成...",
+              "NextMtn": "Start:16"
+            },
+            {
+              "Text": "人际关系...",
+              "NextMtn": "Start:17"
+            },
+            {
+              "Text": "新认识...",
+              "NextMtn": "Start:18"
+            },
+            {
+              "Text": "阅读书籍...",
+              "NextMtn": "Start:27"
+            }
+          ]
+        },
+        {
+          "Name": "1",
+          "File": "motion/1.motion3.json",
+          "Sound": "sound/1.wav",
+          "Text": "初次见面，召唤者。吾辈莅临于此，为汝辈内心的梦想而来，愿汝辈在黑暗中前行，不辜负曾经的梦想。接下来的日子，吾辈愿为汝指明前行的方向。不要辜负吾的期待，召唤者。",
+          "TextDuration": 17000
+        },
+        {
+          "Name": "2",
+          "File": "motion/2.motion3.json",
+          "Sound": "sound/2.wav",
+          "Text": "黎明，是新的一天的开始。汝自当明白时间对汝辈来说是多么的重要。寸金难买寸光阴，为了追寻你的梦想，从现在开始行动吧！",
+          "TextDuration": 12000
+        },
+        {
+          "Name": "3",
+          "File": "motion/3.motion3.json",
+          "Sound": "sound/3.wav",
+          "Text": "有一个健康的体魄，是存在的根基。健康是一，而所有的他物在健康之下都可称之为零。为了健康，去锻炼吧！",
+          "TextDuration": 11000
+        },
+        {
+          "Name": "5",
+          "File": "motion/5.motion3.json",
+          "Sound": "sound/5.wav",
+          "Text": "冥想是一种生活态度，不同于世俗的庸庸碌碌，冥想能够带给你的不仅仅是心灵上的愉悦，还有对事件与节奏的掌控与超越。 ",
+          "TextDuration": 11000
+        },
+        {
+          "Name": "6",
+          "File": "motion/6.motion3.json",
+          "Sound": "sound/6.wav",
+          "Text": "进行一天的学习规划，这是十分必要的事情，无论多么困难与复杂的事情，都可以把它拆成一个一个小步骤去做，集中精力，避免反复。教员说“伤其十指不如断其一指”就是这个道理",
+          "TextDuration": 16000
+        },
+        {
+          "Name": "7",
+          "File": "motion/7.motion3.json",
+          "Sound": "sound/7.wav",
+          "Text": "物品的管理可是人生中的大事。琐碎的烦恼有九成来自于杂乱的寻找。将自己的物品置于自己的控制之下，能让你的日常生活省力很多很多",
+          "TextDuration": 11000
+        },
+        {
+          "Name": "8",
+          "File": "motion/8.motion3.json",
+          "Sound": "sound/8.wav",
+          "Text": "新的计划已经被添加到控制中枢，记得留意！",
+          "TextDuration": 4000
+        },
+        {
+          "Name": "9",
+          "File": "motion/9.motion3.json",
+          "Sound": "sound/9.wav",
+          "Text": "有物品需要采购，抽时间解决一下。",
+          "TextDuration": 3000
+        },
+        {
+          "Name": "10",
+          "File": "motion/10.motion3.json",
+          "Sound": "sound/10.wav",
+          "Text": "账目结算完成，若是想要数据的话，不妨查看一下",
+          "TextDuration": 5000
+        },
+        {
+          "Name": "11",
+          "File": "motion/11.motion3.json",
+          "Sound": "sound/11.wav",
+          "Text": "成就达成，值得吾见证的进步。",
+          "TextDuration": 4000
+        },
+        {
+          "Name": "12",
+          "File": "motion/12.motion3.json",
+          "Sound": "sound/12.wav",
+          "Text": "新的任务可以被添加到计划簿。",
+          "TextDuration": 5000
+        },
+        {
+          "Name": "13",
+          "File": "motion/13.motion3.json",
+          "Sound": "sound/13.wav",
+          "Text": "专注开始，放下手机，将精力灌注到专注中",
+          "TextDuration": 4000
+        },
+        {
+          "Name": "14",
+          "File": "motion/14.motion3.json",
+          "Sound": "sound/14.wav",
+          "Text": "番茄结束，是时候休息一下了!",
+          "TextDuration": 3000
+        },
+        {
+          "Name": "15",
+          "File": "motion/15.motion3.json",
+          "Sound": "sound/15.wav",
+          "Text": "给自己休息半个小时？没错，快乐才是成长最大的动力。",
+          "TextDuration": 5000
+        },
+        {
+          "Name": "16",
+          "File": "motion/16.motion3.json",
+          "Sound": "sound/16.wav",
+          "Text": "计划完成。吾就勉强称赞你一下吧。不过，这可远远不够。",
+          "TextDuration": 5000
+        },
+        {
+          "Name": "17",
+          "File": "motion/17.motion3.json",
+          "Sound": "sound/17.wav",
+          "Text": "人际关系是不得不应付的事情。新的计划已经出现，记得应付一下。",
+          "TextDuration": 6000
+        },
+        {
+          "Name": "18",
+          "File": "motion/18.motion3.json",
+          "Sound": "sound/18.wav",
+          "Text": "新认识的人？无论是朋友还是敌人，暂且记住他了.",
+          "TextDuration": 5000
+        },
+        {
+          "Name": "4",
+          "File": "motion/4.motion3.json",
+          "Sound": "sound/4.wav",
+          "Text": "如果给吾装上钻头，那什么看起来都像矿",
+          "TextDuration": 4000
+        },
+        {
+          "Name": "27",
+          "File": "motion/27.motion3.json",
+          "Sound": "sound/27.wav",
+          "Text": "阅读书籍一个很好的习惯，能够提升自己，不枉来此一生。当然，还有思考。",
+          "TextDuration": 8000
+        }
+      ]
+    },
+    "Expressions": [
+      {
+        "Name": "发",
+        "File": "expressions/glasses.exp3.json"
+      },
+      {
+        "Name": "眼镜",
+        "File": "expressions/2.exp3.json"
+      },
+      {
+        "Name": "3",
+        "File": "expressions/3.exp3.json"
+      },
+      {
+        "Name": "眼",
+        "File": "expressions/4.exp3.json"
+      },
+      {
+        "Name": "5",
+        "File": "expressions/5.exp3.json"
+      },
+      {
+        "Name": "归位",
+        "File": "expressions/gui.exp3.json"
+      }
+    ]
+  },
+  "Controllers": {
+    "ParamHit": {},
+    "ParamLoop": {},
+    "KeyTrigger": {},
+    "EyeBlink": {
+      "MinInterval": 500,
+      "MaxInterval": 6000,
+      "Enabled": true
+    },
+    "LipSync": {
+      "Gain": 5.0
+    },
+    "MouseTracking": {
+      "SmoothTime": 0.15,
+      "Enabled": true
+    },
+    "AutoBreath": {
+      "Enabled": true
+    },
+    "ExtraMotion": {
+      "Enabled": true
+    },
+    "Accelerometer": {
+      "Enabled": true
+    },
+    "Microphone": {},
+    "Transform": {},
+    "FaceTracking": {
+      "Enabled": true
+    },
+    "ParamValue": {},
+    "PartOpacity": {},
+    "ArtmeshOpacity": {},
+    "ArtmeshColor": {},
+    "ArtmeshCulling": {
+      "DefaultMode": 0
+    },
+    "IntimacySystem": {}
+  },
+  "HitAreas": [
+    {
+      "Name": "眼镜",
+      "Id": "ArtMesh1",
+      "Order": 2,
+      "Motion": "tick1:眼镜"
+    },
+    {
+      "Name": "发型",
+      "Id": "ArtMesh",
+      "Motion": "tick1:发型"
+    },
+    {
+      "Name": "腿1",
+      "Id": "ArtMesh107",
+      "Motion": "tick1:腿"
+    },
+    {
+      "Name": "腿2",
+      "Id": "ArtMesh106",
+      "Motion": "tick1:腿"
+    },
+    {
+      "Name": "回复",
+      "Id": "ArtMesh33",
+      "Motion": "tick1:回归"
+    },
+    {
+      "Name": "晃",
+      "Id": "ArtMesh83",
+      "Motion": "tick1:晃"
+    },
+    {
+      "Name": "td",
+      "Id": "ArtMesh34",
+      "Motion": "tick1:td"
+    },
+    {
+      "Name": "嘻嘻",
+      "Id": "ArtMesh29",
+      "Order": 1,
+      "Motion": "tick1:嘿嘿"
+    },
+    {
+      "Name": "蛤",
+      "Id": "ArtMesh64",
+      "Order": 1,
+      "Motion": "tick1:蛤？"
+    },
+    {
+      "Name": "ces",
+      "Id": "ArtMesh40",
+      "Motion": "Start:测试"
+    },
+    {
+      "Name": "右手",
+      "Id": "ArtMesh84",
+      "Motion": "Start:4"
+    }
+  ],
+  "Options": {}
+}
