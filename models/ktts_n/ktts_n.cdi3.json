@@ -1,0 +1,323 @@
+{
+	"Version": 3,
+	"Parameters": [
+		{
+			"Id": "ParamAngleX",
+			"GroupId": "",
+			"Name": "角度 X"
+		},
+		{
+			"Id": "ParamAngleY",
+			"GroupId": "",
+			"Name": "角度 Y"
+		},
+		{
+			"Id": "ParamAngleZ",
+			"GroupId": "",
+			"Name": "角度 Z"
+		},
+		{
+			"Id": "ParamEyeLOpen",
+			"GroupId": "",
+			"Name": "左目　開閉"
+		},
+		{
+			"Id": "ParamEyeLSmile",
+			"GroupId": "",
+			"Name": "左目　笑顔"
+		},
+		{
+			"Id": "ParamEyeROpen",
+			"GroupId": "",
+			"Name": "右目　開閉"
+		},
+		{
+			"Id": "ParamEyeRSmile",
+			"GroupId": "",
+			"Name": "右目　笑顔"
+		},
+		{
+			"Id": "ParamEyeBallX",
+			"GroupId": "",
+			"Name": "目玉 X"
+		},
+		{
+			"Id": "ParamEyeBallY",
+			"GroupId": "",
+			"Name": "目玉 Y"
+		},
+		{
+			"Id": "ParamBrowLY",
+			"GroupId": "",
+			"Name": "左眉　上下"
+		},
+		{
+			"Id": "ParamBrowRY",
+			"GroupId": "",
+			"Name": "右眉　上下"
+		},
+		{
+			"Id": "ParamBrowLX",
+			"GroupId": "",
+			"Name": "左眉　左右"
+		},
+		{
+			"Id": "ParamBrowRX",
+			"GroupId": "",
+			"Name": "右眉　左右"
+		},
+		{
+			"Id": "ParamBrowLAngle",
+			"GroupId": "",
+			"Name": "左眉　角度"
+		},
+		{
+			"Id": "ParamBrowRAngle",
+			"GroupId": "",
+			"Name": "右眉　角度"
+		},
+		{
+			"Id": "ParamBrowLForm",
+			"GroupId": "",
+			"Name": "左眉　変形"
+		},
+		{
+			"Id": "ParamBrowRForm",
+			"GroupId": "",
+			"Name": "右眉　変形"
+		},
+		{
+			"Id": "ParamMouthForm",
+			"GroupId": "",
+			"Name": "口　変形"
+		},
+		{
+			"Id": "ParamMouthOpenY",
+			"GroupId": "",
+			"Name": "口　開閉"
+		},
+		{
+			"Id": "ParamCheek",
+			"GroupId": "",
+			"Name": "照れ"
+		},
+		{
+			"Id": "ParamBodyAngleX",
+			"GroupId": "",
+			"Name": "体の回転　X"
+		},
+		{
+			"Id": "Param_boots",
+			"GroupId": "",
+			"Name": "靴子晃动"
+		},
+		{
+			"Id": "ParamBodyAngleY",
+			"GroupId": "",
+			"Name": "体の回転　Y"
+		},
+		{
+			"Id": "ParamBodyAngleZ",
+			"GroupId": "",
+			"Name": "体の回転　Z"
+		},
+		{
+			"Id": "ParamBreath",
+			"GroupId": "",
+			"Name": "呼吸"
+		},
+		{
+			"Id": "ParamHairFront",
+			"GroupId": "",
+			"Name": "髪揺れ　前"
+		},
+		{
+			"Id": "ParamHairSide",
+			"GroupId": "",
+			"Name": "髪揺れ　横"
+		},
+		{
+			"Id": "Param_h_2",
+			"GroupId": "",
+			"Name": "参数30"
+		},
+		{
+			"Id": "ParamHairBack",
+			"GroupId": "",
+			"Name": "髪揺れ　後"
+		},
+		{
+			"Id": "ParamArmL",
+			"GroupId": "",
+			"Name": "左腕"
+		},
+		{
+			"Id": "ParamArmR",
+			"GroupId": "",
+			"Name": "右腕"
+		},
+		{
+			"Id": "Param_fayao_ce",
+			"GroupId": "",
+			"Name": "发摇_侧"
+		},
+		{
+			"Id": "Param_fayao_ce2",
+			"GroupId": "",
+			"Name": "发摇——侧——2"
+		},
+		{
+			"Id": "Param_wan",
+			"GroupId": "",
+			"Name": "左下臂"
+		},
+		{
+			"Id": "Param__paot",
+			"GroupId": "",
+			"Name": "炮台"
+		},
+		{
+			"Id": "Param_zt",
+			"GroupId": "",
+			"Name": "装填"
+		},
+		{
+			"Id": "Param",
+			"GroupId": "",
+			"Name": "装弹"
+		},
+		{
+			"Id": "Param2",
+			"GroupId": "",
+			"Name": "炮弹"
+		},
+		{
+			"Id": "Param_h_1",
+			"GroupId": "ParamGroup",
+			"Name": "h_1"
+		},
+		{
+			"Id": "Param_h___2",
+			"GroupId": "ParamGroup",
+			"Name": "h_2"
+		},
+		{
+			"Id": "Param_fy_1",
+			"GroupId": "ParamGroup2",
+			"Name": "扶摇1"
+		},
+		{
+			"Id": "Param_fy_2",
+			"GroupId": "ParamGroup2",
+			"Name": "扶摇2"
+		}
+	],
+	"ParameterGroups": [
+		{
+			"Id": "ParamGroup",
+			"GroupId": "",
+			"Name": "发摇_后"
+		},
+		{
+			"Id": "ParamGroup2",
+			"GroupId": "",
+			"Name": "扶摇"
+		}
+	],
+	"Parts": [
+		{
+			"Id": "Part9",
+			"Name": "主炮.psd"
+		},
+		{
+			"Id": "Part8",
+			"Name": "KV-4 KTTS富根.psd"
+		},
+		{
+			"Id": "Part6",
+			"Name": "嘴.psd"
+		},
+		{
+			"Id": "Part5",
+			"Name": "k——发.psd"
+		},
+		{
+			"Id": "Part4",
+			"Name": "k——发.psd"
+		},
+		{
+			"Id": "Part3",
+			"Name": "；tts发.psd"
+		},
+		{
+			"Id": "Part2",
+			"Name": "；tts发.psd(未找到对应图层)"
+		},
+		{
+			"Id": "Part",
+			"Name": "；tts发.psd"
+		},
+		{
+			"Id": "Part01Body",
+			"Name": "体"
+		},
+		{
+			"Id": "Part01Neck",
+			"Name": "首"
+		},
+		{
+			"Id": "Part01HairBack001",
+			"Name": "後ろ髪"
+		},
+		{
+			"Id": "Part01HairSide001",
+			"Name": "横髪"
+		},
+		{
+			"Id": "Part01HairFront001",
+			"Name": "前髪"
+		},
+		{
+			"Id": "Part01Ear001",
+			"Name": "耳"
+		},
+		{
+			"Id": "Part01Nose001",
+			"Name": "鼻"
+		},
+		{
+			"Id": "Part01Mouth001",
+			"Name": "口"
+		},
+		{
+			"Id": "Part01Brow001",
+			"Name": "まゆ毛"
+		},
+		{
+			"Id": "Part01EyeBall001",
+			"Name": "目玉"
+		},
+		{
+			"Id": "Part01Eye001",
+			"Name": "目"
+		},
+		{
+			"Id": "Part01Face001",
+			"Name": "顔"
+		},
+		{
+			"Id": "PartSketch0",
+			"Name": "[ 参考图 ]"
+		},
+		{
+			"Id": "Part7",
+			"Name": "ﾈﾋﾎ�"
+		}
+	],
+	"CombinedParameters": [
+		[
+			"ParamEyeBallX",
+			"ParamEyeBallY"
+		]
+	]
+}

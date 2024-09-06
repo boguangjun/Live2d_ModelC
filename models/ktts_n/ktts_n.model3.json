@@ -1,0 +1,28 @@
+{
+	"Version": 3,
+	"FileReferences": {
+		"Moc": "ktts_n.moc3",
+		"Textures": [
+			"ktts_n.2048/texture_00.png",
+			"ktts_n.2048/texture_01.png",
+			"ktts_n.2048/texture_02.png",
+			"ktts_n.2048/texture_03.png",
+			"ktts_n.2048/texture_04.png",
+			"ktts_n.2048/texture_05.png"
+		],
+		"Physics": "ktts_n.physics3.json",
+		"DisplayInfo": "ktts_n.cdi3.json"
+	},
+	"Groups": [
+		{
+			"Target": "Parameter",
+			"Name": "LipSync",
+			"Ids": []
+		},
+		{
+			"Target": "Parameter",
+			"Name": "EyeBlink",
+			"Ids": []
+		}
+	]
+}
